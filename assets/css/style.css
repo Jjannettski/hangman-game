@@ -1,0 +1,135 @@
+body {
+  background: url('https://images.8tracks.com/cover/i/002/663/916/tumblr_n12qwt9hjU1s0hcrao1_500-1713.jpg?rect=0,125,500,500&q=98&fm=jpg&fit=max');
+  font-family: 'Gloria Hallelujah', cursive;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+
+}
+
+button{
+  background:yellow;
+  border: solid 1px;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
+
+.wrappper{
+  width:100%;
+  margin:0 auto;
+}
+
+.active {
+  cursor:default;
+}
+
+#catagoryName{
+	color:black;
+  background-color: yellow;
+  width:60%;
+  margin-left: 20%;
+}
+
+#hold{
+	  width: 60%;
+  margin-left: 20%;
+}
+
+#buttons{
+	display: inline-block;
+
+}
+
+#hm-one{
+	color:black;
+  background-color: yellow;
+  width:60%;
+  margin-left: 20%;
+}
+
+#alphabet {
+  
+  margin:15px auto;
+  padding:0;
+  max-width:900px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:45px;
+  padding-top:10px;
+  color:black;
+  cursor:pointer;
+  background-color: yellow;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+  color:black;
+  background-color: yellow;
+}
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+  color:black;
+  background-color: yellow;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#letter{
+	background-color: black;
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }
